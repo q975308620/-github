@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  网络编程
+//
+//  Created by DC018 on 16/6/7.
+//  Copyright © 2016年 DC018. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define HOOP @"http://jxwm.gkmm.net:8989/news/"
+#define Set_table [HOOP stringByAppendingString:@"newsCategory/getBanner.do"]
+#define Set_scrollview [HOOP stringByAppendingString:@"news/getNewsByCategoryId.do"]
+#define Set_new [HOOP stringByAppendingString:@"/news/getNewsDetailById.do"]
+
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "NewTableViewCell.h"
+#import "UIKit+AFNetworking.h"
+#import "SDCycleScrollView.h"
+#import "MJExtension.h"
+#import "SegmentTapView.h"
+#import "FlipTableView.h"
+#endif /* PrefixHeader_pch */
