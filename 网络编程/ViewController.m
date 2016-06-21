@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    NSLog(@"1.2dlkfd;l");
     self.view.backgroundColor=[UIColor cyanColor];
     _a=[NSMutableArray array];
      NSArray *ae=@[@"文明播报",@"道德模范",@"文明创建",@"志愿服务",@"未成年人",@"区县传真",@"主题活动",@"我们的节日"];
